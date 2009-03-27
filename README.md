@@ -9,7 +9,7 @@ are well-suited too.
 The output is an RLE Triple of the form (value, start position, length)
 
 Example
-======
+=======
 
 The input file fakedata contains a list of pets with duplicates.
 Programs should do this:
@@ -22,3 +22,8 @@ Programs should do this:
     monkey,10,6
     rabbit,16,1
     hamster,17,5
+
+Testing
+=======
+
+Run replicate.py to create bigfake to make it easier to measure wall clock performance.
