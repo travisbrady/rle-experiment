@@ -12,7 +12,7 @@ def main():
         else:
             this_len += 1
         lastline = line
-    print line, this_start, this_len
+    print "%s,%d,%d" % (line, this_start, this_len)
 
 if __name__ == '__main__':
     main()
