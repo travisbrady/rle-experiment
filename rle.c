@@ -1,3 +1,6 @@
+/*
+Note: I am not a C programmer
+*/
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
