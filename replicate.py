@@ -1,0 +1,5 @@
+s = open('fakedata').read()
+sout = '\n'.join([s]*100000)
+fh = open('bigfake', 'w')
+fh.write(sout)
+fh.close()
